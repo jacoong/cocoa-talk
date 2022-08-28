@@ -1,0 +1,16 @@
+.screen-header{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px;
+}
+
+.screen-header__Friends-searchbar{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.screen-header__icons i{
+    padding-left: 20px;
+}

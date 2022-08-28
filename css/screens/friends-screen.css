@@ -1,0 +1,77 @@
+.Names-Display{
+padding: 15px 0px;
+background-color: #F2F4F6;
+text-align: center;
+display: block;
+cursor: pointer;
+}
+
+.Names-Display i{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.Names-Display a{
+    font-size: 16px;
+}
+
+.Profile-area{
+    padding:10px 0px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 22px;
+}
+
+
+.Profile-area__left{
+    display:flex;
+}
+
+.Profile-area__left__Profile-Picture{
+    width: 60px;
+    height: 60px;
+    display: block;
+    border-radius: 22px;
+    margin-right:20px;
+}
+
+.Profile-area__Profile-container{
+    display: flex;
+    align-items: center; 
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.Profile-area__left__Profile-Picture--xl{
+    width: 80px;
+    height: 80px;
+    display: block;
+    border-radius: 30px;
+    margin-right:20px;
+}
+
+
+.screen-body__header__channel{
+    border-top: 2px solid #F2F4F6;
+    margin: 0px 22px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    color:rgba(0, 0, 0, 0.5);
+}
+
+.Profile-area__right{
+    display: flex;
+    align-items: center;
+    color:rgba(0, 0, 0, 0.5);
+}
+
+.Profile-area__right__icon{
+    padding-left:5px; 
+}
+
+.Profile-area__Profile-container-channel{
+    display: flex;
+    align-items: center; 
+    font-size: 15px;
+    font-weight: 400;
+}
