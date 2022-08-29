@@ -1,0 +1,37 @@
+.find-header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.find-header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:20px 0px;
+}
+
+.find-header-container-title{
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.screen-body__header__channel{
+    border-top: 2px solid #F2F4F6;
+    margin: 0px var(--horizontal-space);
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    color:rgba(0, 0, 0, 0.5);
+    font-size:14px;
+}
+.screen-body__body{
+    margin: 0px var(--horizontal-space);
+    height: 200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.screen-body__body__detail{
+    color:rgba(0, 0, 0, 0.5);
+}

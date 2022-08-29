@@ -1,0 +1,49 @@
+
+.Profile-area__Profile-container__chat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Profile-area__Profile-container__chatting-user{
+    padding-bottom:6px;
+    font-weight: 700;
+}
+
+.Profile-area__Profile-container__chatting-preview{
+    font-size: 13px;
+    color:rgba(0, 0, 0, 0.3);
+}
+
+
+.Profile-area__right__chats{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Profile-area__right__chats-text{
+    display: flex;
+    position: relative;
+    font-size: 10px;
+    color:rgba(0, 0, 0, 0.3);
+    padding: 5px;
+
+}
+
+
+.Profile-area__right__chats-notification {
+    display: flex;
+    background-color: tomato;
+    position: relative;
+    left:12px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+    font-size: 12px;
+}

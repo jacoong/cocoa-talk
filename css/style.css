@@ -7,6 +7,8 @@
 
 @import "screens/login.css";
 @import "screens/friends-screen.css";
+@import "screens/chats.css";
+@import "screens/find.css";
 
 
 body{
