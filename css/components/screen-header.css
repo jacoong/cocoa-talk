@@ -1,9 +1,7 @@
 .screen-header{
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 15px;
+    margin: 0px var(--horizontal-space);
 }
 
 .screen-header__Friends-searchbar{
@@ -11,6 +9,15 @@
     font-weight: 600;
 }
 
-.screen-header__icons i{
-    padding-left: 20px;
+
+
+.screen-header__log-page{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    margin: 0px var(--horizontal-space);
 }
+
+.screen-header__Friends-searchbar__log-page{
+text-align: center;
+position: relative;
+bottom: 22px;}

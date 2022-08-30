@@ -1,6 +1,8 @@
 .find-header{
     display: flex;
     justify-content: space-around;
+    padding-top: 20px;
+    margin: 0px 28px;
 }
 
 .find-header-container{
@@ -8,22 +10,23 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding:20px 0px;
 }
 
 .find-header-container-title{
-    padding: 40px 0px;
+    padding: 25px 0px;
     text-align: center;
+    font-size: 13px;
 }
-
-.screen-body__header__channel{
-    border-top: 2px solid #F2F4F6;
+.screen-body{
+    font-size: 12px;
+}
+.screen-body.__header__channel{
+    border-top: 1px solid #F2F4F6;
     margin: 0px var(--horizontal-space);
-    padding: 10px 0px;
+    padding: 12px 0px;
     display: flex;
     justify-content: space-between;
     color:rgba(0, 0, 0, 0.5);
-    font-size:14px;
 }
 .screen-body__body{
     margin: 0px var(--horizontal-space);
@@ -33,5 +36,88 @@
     justify-content: center;
 }
 .screen-body__body__detail{
-    color:rgba(0, 0, 0, 0.5);
+    color:var(--gray);
+    
+}
+
+.screen-body__open-chat{
+    box-sizing: content-box;
+    padding:8px 0px;
+    display:flex;
+    justify-content: space-between;
+    margin: 0px var(--horizontal-space);
+    border-bottom: 1px solid #F2F4F6;
+    align-items: center;
+}
+
+
+.screen-body__open-chat__left__conponent__1{
+    font-weight: 550;
+    font-size: 15px;
+    color: black;
+    padding-bottom: 5px;
+}
+
+.screen-body__open-chat__left__conponent__2{
+    font-weight: 500;
+    color:var(--gray);
+    padding-bottom: 8px;
+}
+
+.screen-body__open-chat__left__conponent__3{
+    display:flex;
+}
+
+.screen-body__open-chat__left__conponent__img{
+    width: 10px;
+    height: 10px;
+    margin-right: 4px;
+}
+
+.screen-body__open-chat__left__conponent__membernumber{
+    font-weight: 500;
+    font-size: 10px;
+    color:var(--gray);
+    margin-right: 4px;
+}
+
+.screen-body__open-chat__left__conponent__Active{
+    font-weight: 600;
+    font-size: 10px;
+    color:rgb(237, 45, 183);
+}
+
+.screen-body__open-chat__right{
+    position: relative;
+}
+
+.screen-body__open-chat__right__conponent__img{
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.screen-body__open-chat__right__conponent__heart__container{
+    width: 16px;
+    width: 5px;
+    border: 8;
+}
+
+.screen-body__open-chat__right__conponent__heart__container{
+    position:absolute;
+    display: flex;
+    border-radius: 7px;
+    width: 39px;
+    height: 16px;
+    background-color: rgba(0, 0, 0, 0.4);    color:white;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    top: 60px;
+    left: 34px;
+}
+
+.screen-body__open-chat__right__conponent__heart__container__number{
+    padding-left: 3px;
+
 }
