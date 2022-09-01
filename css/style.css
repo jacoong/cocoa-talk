@@ -2,7 +2,8 @@
 @import "variables.css";
 
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 
 @import "components/status-bar.css";
 @import "components/nav-bar.css";

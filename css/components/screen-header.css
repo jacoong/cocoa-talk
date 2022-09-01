@@ -8,12 +8,13 @@
     background-color: #1F2021;;
     margin-bottom: 10px;
     z-index: 9998;
-    height: 50px
+    height: 50px;
 ;}
 
 .screen-header__Friends-searchbar{
+    font-family: 'Pacifico', cursive;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 200;
 }
 
 .screen-header__icons i{

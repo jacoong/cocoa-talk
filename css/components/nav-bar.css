@@ -9,6 +9,7 @@
     justify-content: space-around;
     padding:20px 0px;
     margin-bottom: 3vh;
+    font-size: 25px;
     
 }
 
@@ -39,4 +40,15 @@
     font-size: 12px;
 
 
+}
+
+.nav__img__div{
+    border-color:1px solid var(--concept-color) ;
+
+}
+
+.nav__img{
+    width: 28px;
+    height: 28px;
+    border-radius: 20px;
 }
