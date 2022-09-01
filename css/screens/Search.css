@@ -1,0 +1,126 @@
+.find-header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin: 0px 28px;
+}
+
+.find-header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.find-header-container-title{
+    padding: 25px 0px;
+    text-align: center;
+    font-size: 13px;
+}
+.screen-body{
+    font-size: 12px;
+}
+.screen-body.__header__channel{
+    border-top: 1px solid #F2F4F6;
+    margin: 0px var(--horizontal-space);
+    padding: 12px 0px;
+    display: flex;
+    justify-content: space-between;
+    color:var(--concept-color);
+}
+.screen-body__body{
+    margin: 0px var(--horizontal-space);
+    height: 200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.screen-body__body__detail{
+    color:var(--concept-color);
+    
+}
+
+.screen-body__open-chat{
+    box-sizing: content-box;
+    margin: 0px var(--horizontal-space);
+    border-radius: 25px;
+    background-color: #2A2B2F;
+    align-items: center;
+    padding: 0px 25px;
+    margin-top: 15px;
+}
+
+.screen-body__open-chat__upside{
+    display: flex;
+    justify-content: space-between;
+    padding-top : 25px;
+}
+
+.screen-body__open-chat__upside__title{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.screen-body__open-chat__midside{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.screen-body__open-chat__left__participants{
+    margin: 8px 0px;
+    font-size: 15px;
+    display: flex;
+
+}
+
+.screen-body__open-chat__left__participants i{
+    margin-left: 6px;
+
+
+}
+
+.screen-body__open-chat__left{
+    margin: 0px 15px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.screen-body__open-chat__right{
+    position: relative;
+}
+
+
+
+.screen-body__open-chat__right__conponent__img{
+    width: 50px;
+    height: 50px;
+    border-radius:15px;
+}
+
+.screen-body__open-chat__downside{
+    display: flex;
+    padding-left: 65px;
+    padding-bottom: 25px;
+    color:#80878D;
+    font-size: 15px;
+}
+
+
+.screen-body__open-chat__downside i{
+    padding-right: 3px;
+}
+
+.screen-body__open-chat__downside h4{
+    padding-right: 8px;
+}
+
+.screen-body__open-chat__downside__membernumber {
+    margin-right: 5px;        
+}
+
+.screen-body__open-chat__upside__menu i{
+    color: #899096;
+}

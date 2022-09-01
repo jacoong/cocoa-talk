@@ -10,12 +10,17 @@
 
 #login-form input{
     padding: 8px 0px;
+    padding-left:13px;
     border: none;
     font-size: 18px;
     margin-bottom: 25px;
     border-radius: 5px;
-    background-color: #48464625;
-}
+    background-color: #87838368;
+    caret-color: var(--concept-color);
+
+  }
+
+
 
 #login-form input:hover{
     background-color: #414141;
@@ -45,7 +50,7 @@ input:focus{
     background-color: #414141;;
 }
 #login-form input[type="submit"]:hover{
-    background-color:var(--yellow);
+    background-color:var(--concept-color);
     cursor: pointer;
 }
 

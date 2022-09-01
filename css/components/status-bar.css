@@ -7,6 +7,8 @@
     box-sizing: border-box;
     font-size: 15px;
     font-weight: 300;
+    z-index: 9999;
+    background-color:#1F2021; ;
 }
 
 .status-bar__column:first-child span{

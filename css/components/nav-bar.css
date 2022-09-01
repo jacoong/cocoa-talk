@@ -1,6 +1,5 @@
 .nav{
-    background-color: #f9f9fa;
-    border-top: 1px solid rgba(121,121,121,0.3);
+    background-color: #1F2021;
     position:fixed;
     bottom: 0;
     width: 100%;
@@ -9,12 +8,20 @@
     display:flex;
     justify-content: space-around;
     padding:20px 0px;
+    margin-bottom: 3vh;
     
 }
 
 .nav__link{
     position: relative;
 }
+
+.nav__btn{
+    text-align: center;
+}
+
+
+
 
 .nav__notification {
     display:flex;

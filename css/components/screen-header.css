@@ -1,23 +1,41 @@
 .screen-header{
-    padding-top: 60px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    position: fixed;
+    width: 93%;
     margin: 0px var(--horizontal-space);
-}
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2021;;
+    margin-bottom: 10px;
+    z-index: 9998;
+    height: 50px
+;}
 
 .screen-header__Friends-searchbar{
     font-size: 25px;
     font-weight: 600;
 }
 
+.screen-header__icons i{
+    padding-left:20px;
+
+}
 
 
-.screen-header__log-page{
+
+.screen-header__log-page,.screen-header__join-page{
     padding-top: 60px;
     padding-bottom: 20px;
     margin: 0px var(--horizontal-space);
+    position: relative;
+
 }
 
-.screen-header__Friends-searchbar__log-page{
+.screen-header__Friends-searchbar__log-page,.screen-header__Friends-searchbar__join-page{
 text-align: center;
 position: relative;
-bottom: 22px;}
+bottom: 22px;
+pointer-events: none;
+}
+
+
