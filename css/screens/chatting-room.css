@@ -50,7 +50,7 @@
 .chatting__screen-header{
     align-items: center;
     border-bottom: 1px solid var(--concept-color);
-    padding-top: 6vw;
+    padding-top: 8vw;
     position: fixed;
     /* height: 73px; */
     width: 100%;
