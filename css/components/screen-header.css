@@ -1,7 +1,6 @@
 .screen-header{
     padding-top: 50px;
     position: fixed;
-<<<<<<< HEAD
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -16,17 +15,6 @@
     padding-left: var(--horizontal-space);
     padding-top: 12vw;
 }
-=======
-    width: 93%;
-    margin: 0px var(--horizontal-space);
-    display: flex;
-    justify-content: space-between;
-    background-color: #1F2021;;
-    margin-bottom: 10px;
-    z-index: 9998;
-    height: 50px;
-;}
->>>>>>> 29fc2ee550fbd96a74ed6403c55160195ef25561
 
 
 
@@ -42,13 +30,10 @@
 }
 
 
-<<<<<<< HEAD
 .screen-header__icons i:last-child{
     margin-right:40px;
 }
 
-=======
->>>>>>> 29fc2ee550fbd96a74ed6403c55160195ef25561
 
 .screen-header__log-page,.screen-header__join-page{
     padding-top: 60px;

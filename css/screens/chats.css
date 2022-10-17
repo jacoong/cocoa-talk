@@ -97,4 +97,6 @@ transition: transform 0.2s ease-in-out;
 
 .chat__main{
     padding-top: 7vw;
+    margin-bottom: 14vw;
+    height: 100%;
 }
