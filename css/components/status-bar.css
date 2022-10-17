@@ -9,7 +9,10 @@
     font-weight: 300;
     z-index: 9999;
     background-color:#1F2021; ;
+<<<<<<< HEAD
     color:var(--concept-backgroundColor);
+=======
+>>>>>>> 29fc2ee550fbd96a74ed6403c55160195ef25561
 }
 
 .status-bar__column:first-child span{

@@ -15,10 +15,13 @@
 @import "screens/Home.css";
 @import "screens/chats.css";
 @import "screens/Search.css";
+<<<<<<< HEAD
 @import "screens/chatting-room.css";
 @import "screens/Profile.css";
 @import "screens/community.css";
 @import "screens/posts.css";
+=======
+>>>>>>> 29fc2ee550fbd96a74ed6403c55160195ef25561
 
 @keyframes secondroad {
 
@@ -32,6 +35,7 @@
     }
 }
 
+<<<<<<< HEAD
 @keyframes flyFromLeft {
 
     0% {
@@ -60,20 +64,32 @@
     }
 }
 
+=======
+>>>>>>> 29fc2ee550fbd96a74ed6403c55160195ef25561
 
 
 
 body{
+<<<<<<< HEAD
     color:var(--concept-color);
     font-family: 'Noto Sans KR', sans-serif;
     font-family: 'Nunito', sans-serif;
     background-color: var(--concept-backgroundColor);
     width: 100%;
     height: 100%;
+=======
+    color:white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    background-color: #1F2021;
+    width: 100%;
+    height: 100vh;
+>>>>>>> 29fc2ee550fbd96a74ed6403c55160195ef25561
     font-size: 20px;
 
 }
 
+<<<<<<< HEAD
 input[type=submit]{
     transition: all 0.2s ease-in-out;
     color:var(--concept-color);
@@ -87,4 +103,6 @@ input{
     color:var(--concept-backgroundColor);
 }
 
+=======
+>>>>>>> 29fc2ee550fbd96a74ed6403c55160195ef25561
 
