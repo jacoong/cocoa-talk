@@ -1,0 +1,212 @@
+.find-header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin: 0px 28px;
+}
+
+.find-header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.find-header-container-title{
+    padding: 25px 0px;
+    text-align: center;
+    font-size: 13px;
+}
+.screen-body{
+    font-size: 12px;
+    margin-bottom: 65px;
+}
+.screen-body.__header__channel{
+    border-top: 1px solid #F2F4F6;
+    margin: 0px var(--horizontal-space);
+    padding: 12px 0px;
+    display: flex;
+    justify-content: space-between;
+    color:var(--concept-color);
+}
+.screen-body__body{
+    margin: 0px var(--horizontal-space);
+    height: 200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.screen-body__body__detail{
+    color:var(--concept-color);
+    
+}
+
+.screen-body__open-chat{
+    box-sizing: content-box;
+    margin: 0px var(--horizontal-space);
+    border-radius: 25px;
+    background-color: var(--concept-color);
+    color:var(--concept-backgroundColor);
+    align-items: center;
+    padding: 0px 25px;
+    margin-top: 15px;
+    box-shadow: 9px 5px 9px grey;
+    transition: transform 0.2s ease-in-out;
+    animation: flyFromLeft 1s;
+}
+
+.screen-body__open-chat:hover{
+    transform:translateY(-0.4vh) ;
+}
+
+.screen-body__open-chat__upside{
+    display: flex;
+    justify-content: space-between;
+    padding-top : 25px;
+}
+
+.screen-body__open-chat__upside__title{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.Home__screen-body__open-chat__midside{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home__screen-body__open-chat__left__conponent i{
+font-size: 15px;
+}
+.screen-body__open-chat__left__participants{
+    margin: 8px 0px;
+    font-size: 18px;
+    display: flex;
+
+}
+
+.screen-body__open-chat__left__participants i{
+    margin-left: 6px;
+
+
+}
+
+.screen-body__open-chat__left{
+    margin: 0px 14vw;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.screen-body__open-chat__right{
+    position: relative;
+}
+
+
+
+.Home__screen-body__open-chat__right__conponent__img{
+    width: 15vw;
+    height: 11vw;
+    border-radius: 5vw;
+    border: 2px solid gold;
+    box-shadow: 0px 2px 20px lightblue;
+}
+
+
+.screen-body__open-chat__downside{
+    display: flex;
+    padding-bottom: 25px;
+    color: var(--concept-backgroundColor);
+    font-weight: 500;
+    font-size: 15px;
+    justify-content: center;
+}
+
+
+.screen-body__open-chat__downside i{
+    padding-right: 3px;
+}
+
+.screen-body__open-chat__downside h4{
+    padding-right: 8px;
+}
+
+.screen-body__open-chat__downside__membernumber {
+    margin-right: 5px;        
+}
+
+.screen-body__open-chat__upside__menu i{
+    color: var(--third-color);
+}
+
+.screen-body__open-chat__detail{
+    margin-top: 1vw;
+    color:var(--concept-backgroundColor);
+    font-size: 2vw;
+}
+
+.Home__screen-body__open-chat__left__conponent__Active-or-Private{
+    color: var(--third-color);
+    font-size: 2vw;
+
+}
+
+.second__screen-divider{
+    padding-top: 20px;
+    margin: 0px var(--horizontal-space);
+    text-align: left;
+    font-size: 2.5vw;
+    color: var(--concept-color);
+    font-weight: bold;
+}
+
+
+
+
+.screen-body__open-chat__right__conponent{
+    margin: var(--horizontal-space);
+    overflow: hidden;
+    border-radius: 15px;
+    position: relative;
+}
+
+.screen-body__open-chat__right__conponent__live{
+    position: absolute;
+    height: 6vw;
+    border-radius: 2vw;
+    width: 14vw;
+    background-color: red;
+    color: var(--concept-backgroundColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 18px;
+    top: 15px;
+    font-size: 3vw;
+}
+
+.screen-body__open-chat__right__conponent__live i{
+    margin-right: 1.5vw;
+}
+
+.Home__screen-body__open-chat__right__conponent__banner__img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 3px 5px 23px grey;
+    transition: all 0.3s ease-in-out;
+    animation: flyFromright 1s;
+}
+
+.screen-body__open-chat__right__conponent__live{
+    animation: flyFromright 1s;
+}
+
+
+.Home__screen-body__open-chat__right__conponent__banner__img:hover{
+scale: 110%;
+transform: translate(0px,-10px);
+}

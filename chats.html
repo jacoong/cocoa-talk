@@ -1,78 +1,424 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chats - kokoa Talk</title>
-    <link rel="stylesheet" class="nav__a" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" class="nav__a" href="css/style.css" />
+  </head>
+  <body>
     <div class="status-bar">
-        <div class="status-bar__column">
-            <span>No Service</span>
-            <i class="fa-solid fa-wifi"></i>
-        </div>
-        <div class="status-bar__column">
-            <span class="status-bar__column__time"></span>
-        </div>
-        <div class="status-bar__column">
-            <span>11%</span>
-            <i class="fa-solid fa-battery-half fa-lg"></i>
-            <i class="fa-solid fa-bolt"></i>
-        </div>
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span class="status-bar__column__time"></span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fa-solid fa-battery-half fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
     </div>
 
-    <header class="screen-header"> 
-        <h1 class="screen-header__Friends-searchbar">Chats</h1>
-        <div class="screen-header__icons">
-            <i class="fas fa-search"></i>
-            <i class="fa-solid fa-plus"></i>
-            <i class="fa-solid fa-music"></i>
-            <i class="fa-solid fa-gear"></i>
-        </div>
+    <header class="screen-header">
+      <div class="grouping">
+      <div class="screen-header__icons">
+        <a href="Home.html">
+            <i class="fa-solid fa-chevron-left"></i>
+        </a>
+      </div>
+      <h1 class="screen-header__Friends-searchbar">Chats</h1>
+    </div>
+      <div class="screen-header__icons">
+        <i class="fas fa-search"></i>
+        <i class="fa-solid fa-plus"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-gear"></i>
+      </div>
     </header>
 
-    <main>
-        <div class="Profile-area" onclick="location.href='chatting-room.html';">
-            <div class="Profile-area__left">
-            <img src="img/hyunwuimg.jpeg" class="Profile-area__left__Profile-Picture" />
-            <div class="Profile-area__Profile-container__chat">
-                <span class="Profile-area__Profile-container__chatting-user">KaKaoTalk</span>
-                <span class="Profile-area__Profile-container__chatting-preview">please check My kakao Account info</span>
-            </div>
-            </div>
+    <main class="chat__main">
 
-            <div class="Profile-area__right__chats">
-                <span class="Profile-area__right__chats-text">21:22</span>
-                <span class="Profile-area__right__chats-notification">1</span>
+      <form class="search_bar">
+        <input type="text" placeholder="Search" >
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </form>
+
+      <div class="screen-body__Message">
+        <span>Message</span>
+        <span>Request</span>
+      </div>
+
+
+      <div class="screen-body__open-chats" onclick="location.href='chatting-room.html'">
+
+        <div class="screen-body__open-chat__upsides"></div>
+
+        <div class="screen-body__open-chat__midside">
+          <div class="screen-body__open-chat__right">
+            <div class="screen-body__open-chat__right__conponent">
+              <img
+                src="img/3g.jpg"
+                class="chat__screen-body__open-chat__right__conponent__img"
+              />
             </div>
+          </div>
+          <div class="screen-body__open-chat__left__chat">
+            <div class="screen-body__open-chat__left__conponents">
+              <div class="chat__screen-body__open-chat__left__participants">
+                <h4>Michalina Mrewa <i style="color:tomato;font-size:10px;position: relative;bottom: 2px;"
+                  class="fa-solid fa-circle"></i></h4>
+                <span>New messages 4</span>
+              </div>
+            </div>
+          </div>
+          <div class="chat__screen-body__open-chat__right">
+            <div class="chat__screen-body__open-chat__right__participants">
+              <i class="fa-solid fa-circle"></i>
+            </div>
+          </div>
         </div>
-    </div>
-</div>
+
+        <div class="screen-body__open-chat__downsides"></div>
+      </div>
+
+      <div class="screen-body__open-chats" onclick="location.href='chatting-room.html'">
+        <div class="screen-body__open-chat__upsides"></div>
+
+        <div class="screen-body__open-chat__midside">
+          <div class="screen-body__open-chat__right">
+            <div class="screen-body__open-chat__right__conponent">
+              <img
+                src="img/1m.jpg"
+                class="chat__screen-body__open-chat__right__conponent__img"
+              />
+            </div>
+          </div>
+          <div class="screen-body__open-chat__left__chat">
+            <div class="screen-body__open-chat__left__conponents">
+              <div class="chat__screen-body__open-chat__left__participants">
+                <h4>Liam <i style="color:tomato;font-size:10px;position: relative;bottom: 2px;"
+                  class="fa-solid fa-circle"></i></h4>
+                <span>New messages 2</span>
+              </div>
+            </div>
+          </div>
+          <div class="chat__screen-body__open-chat__right">
+            <div class="chat__screen-body__open-chat__right__participants">
+              <i class="fa-solid fa-circle"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="screen-body__open-chat__downsides"></div>
+      </div>
+
+      <div class="screen-body__open-chats" onclick="location.href='chatting-room.html'">
+        <div class="screen-body__open-chat__upsides"></div>
+
+        <div class="screen-body__open-chat__midside">
+          <div class="screen-body__open-chat__right">
+            <div class="screen-body__open-chat__right__conponent">
+              <img
+                src="img/2g.jpg"
+                class="chat__screen-body__open-chat__right__conponent__img"
+              />
+            </div>
+          </div>
+          <div class="screen-body__open-chat__left__chat">
+            <div class="screen-body__open-chat__left__conponents">
+              <div class="chat__screen-body__open-chat__left__participants">
+                <h4>Olivia</h4>
+                <span>Seen 18h ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="chat__screen-body__open-chat__right">
+            <div class="chat__screen-body__open-chat__right__participants">
+              <i style="color:grey;" class="fa-solid fa-circle"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="screen-body__open-chat__downsides"></div>
+      </div>
+
+      <div class="screen-body__open-chats" onclick="location.href='chatting-room.html'">
+        <div class="screen-body__open-chat__upsides"></div>
+
+        <div class="screen-body__open-chat__midside">
+          <div class="screen-body__open-chat__right">
+            <div class="screen-body__open-chat__right__conponent">
+              <img
+                src="img/4g.jpg"
+                class="chat__screen-body__open-chat__right__conponent__img"
+              />
+            </div>
+          </div>
+          <div class="screen-body__open-chat__left__chat">
+            <div class="screen-body__open-chat__left__conponents">
+              <div class="chat__screen-body__open-chat__left__participants">
+                <h4>Emma</h4>
+                <span>Active now</span>
+              </div>
+            </div>
+          </div>
+          <div class="chat__screen-body__open-chat__right">
+            <div class="chat__screen-body__open-chat__right__participants">
+              <i class="fa-solid fa-circle"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="screen-body__open-chat__downsides"></div>
+      </div>
+
+      <div class="screen-body__open-chats" onclick="location.href='chatting-room.html'">
+        <div class="screen-body__open-chat__upsides"></div>
+
+        <div class="screen-body__open-chat__midside">
+          <div class="screen-body__open-chat__right">
+            <div class="screen-body__open-chat__right__conponent">
+              <img
+                src="img/2m.jpg"
+                class="chat__screen-body__open-chat__right__conponent__img"
+              />
+            </div>
+          </div>
+          <div class="screen-body__open-chat__left__chat">
+            <div class="screen-body__open-chat__left__conponents">
+              <div class="chat__screen-body__open-chat__left__participants">
+                <h4>Henry <i style="color:tomato;font-size:10px;position: relative;bottom: 2px;"
+                  class="fa-solid fa-circle"></i></h4>
+                <span>New messages 2</span>
+              </div>
+            </div>
+          </div>
+          <div class="chat__screen-body__open-chat__right">
+            <div class="chat__screen-body__open-chat__right__participants">
+              <i class="fa-solid fa-circle"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="screen-body__open-chat__downsides"></div>
+      </div>
+
+      <div class="screen-body__open-chats" onclick="location.href='chatting-room.html'">
+        <div class="screen-body__open-chat__upsides"></div>
+
+        <div class="screen-body__open-chat__midside">
+          <div class="screen-body__open-chat__right">
+            <div class="screen-body__open-chat__right__conponent">
+              <img
+                src="img/3m.jpg"
+                class="chat__screen-body__open-chat__right__conponent__img"
+              />
+            </div>
+          </div>
+          <div class="screen-body__open-chat__left__chat">
+            <div class="screen-body__open-chat__left__conponents">
+              <div class="chat__screen-body__open-chat__left__participants">
+                <h4>Alexander <i style="color:tomato;font-size:10px;position: relative;bottom: 2px;"
+                  class="fa-solid fa-circle"></i></h4>
+                <span>New messages 1</span>
+              </div>
+            </div>
+          </div>
+          <div class="chat__screen-body__open-chat__right">
+            <div class="chat__screen-body__open-chat__right__participants">
+              <i class="fa-solid fa-circle"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="screen-body__open-chat__downsides"></div>
+      </div>
+
+      <div class="screen-body__open-chats" onclick="location.href='chatting-room.html'">
+        <div class="screen-body__open-chat__upsides"></div>
+
+        <div class="screen-body__open-chat__midside">
+          <div class="screen-body__open-chat__right">
+            <div class="screen-body__open-chat__right__conponent">
+              <img
+                src="img/hyunwuProfile.jpg"
+                class="chat__screen-body__open-chat__right__conponent__img"
+              />
+            </div>
+          </div>
+          <div class="screen-body__open-chat__left__chat">
+            <div class="screen-body__open-chat__left__conponents">
+              <div class="chat__screen-body__open-chat__left__participants">
+                <h4>Hyunwu you</h4>
+                <span>Active Now</span>
+              </div>
+            </div>
+          </div>
+          <div class="chat__screen-body__open-chat__right">
+            <div class="chat__screen-body__open-chat__right__participants">
+              <i class="fa-solid fa-circle"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="screen-body__open-chat__downsides"></div>
+      </div>
+
+      <div class="screen-body__open-chats" onclick="location.href='chatting-room.html'">
+        <div class="screen-body__open-chat__upsides"></div>
+
+        <div class="screen-body__open-chat__midside">
+          <div class="screen-body__open-chat__right">
+            <div class="screen-body__open-chat__right__conponent">
+              <img
+                src="img/son.jpg"
+                class="chat__screen-body__open-chat__right__conponent__img"
+              />
+            </div>
+          </div>
+          <div class="screen-body__open-chat__left__chat">
+            <div class="screen-body__open-chat__left__conponents">
+              <div class="chat__screen-body__open-chat__left__participants">
+                <h4>Test</h4>
+                <span>New messages 4</span>
+              </div>
+            </div>
+          </div>
+          <div class="chat__screen-body__open-chat__right">
+            <div class="chat__screen-body__open-chat__right__participants">
+              <i class="fa-solid fa-circle"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="screen-body__open-chat__downsides"></div>
+      </div>
+
+      <div class="screen-body__open-chats" onclick="location.href='chatting-room.html'">
+        <div class="screen-body__open-chat__upsides"></div>
+
+        <div class="screen-body__open-chat__midside">
+          <div class="screen-body__open-chat__right">
+            <div class="screen-body__open-chat__right__conponent">
+              <img
+                src="img/son.jpg"
+                class="chat__screen-body__open-chat__right__conponent__img"
+              />
+            </div>
+          </div>
+          <div class="screen-body__open-chat__left__chat">
+            <div class="screen-body__open-chat__left__conponents">
+              <div class="chat__screen-body__open-chat__left__participants">
+                <h4>Test</h4>
+                <span>New messages 4</span>
+              </div>
+            </div>
+          </div>
+          <div class="chat__screen-body__open-chat__right">
+            <div class="chat__screen-body__open-chat__right__participants">
+              <i class="fa-solid fa-circle"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="screen-body__open-chat__downsides"></div>
+      </div>
+
+      <div class="screen-body__open-chats">
+        <div class="screen-body__open-chat__upsides"></div>
+
+        <div class="screen-body__open-chat__midside">
+          <div class="screen-body__open-chat__right">
+            <div class="screen-body__open-chat__right__conponent">
+              <img
+                src="img/son.jpg"
+                class="chat__screen-body__open-chat__right__conponent__img"
+              />
+            </div>
+          </div>
+          <div class="screen-body__open-chat__left__chat">
+            <div class="screen-body__open-chat__left__conponents">
+              <div class="chat__screen-body__open-chat__left__participants">
+                <h4>Test</h4>
+                <span>New messages 4</span>
+              </div>
+            </div>
+          </div>
+          <div class="chat__screen-body__open-chat__right">
+            <div class="chat__screen-body__open-chat__right__participants">
+              <i class="fa-solid fa-circle"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="screen-body__open-chat__downsides"></div>
+      </div>
+
+      <div class="screen-body__open-chats">
+        <div class="screen-body__open-chat__upsides"></div>
+
+        <div class="screen-body__open-chat__midside">
+          <div class="screen-body__open-chat__right">
+            <div class="screen-body__open-chat__right__conponent">
+              <img
+                src="img/son.jpg"
+                class="chat__screen-body__open-chat__right__conponent__img"
+              />
+            </div>
+          </div>
+          <div class="screen-body__open-chat__left__chat">
+            <div class="screen-body__open-chat__left__conponents">
+              <div class="chat__screen-body__open-chat__left__participants">
+                <h4>Test</h4>
+                <span>New messages 4</span>
+              </div>
+            </div>
+          </div>
+          <div class="chat__screen-body__open-chat__right">
+            <div class="chat__screen-body__open-chat__right__participants">
+              <i class="fa-solid fa-circle"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="screen-body__open-chat__downsides"></div>
+      </div>
     </main>
 
     <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__btn">
-                <a class="nav__link" href="friends.html"><i class="fa-regular fa-user fa-xl"></i></a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="#">
-                    <span class="nav__notification">1</span>
-                    <i class="fa-solid fa-comment fa-xl"></i></a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="find.html"><i class="fas fa-search fa-xl"></i></a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="#"><i class="fa-thin fa-bars fa-xl"></i></a>
-            </li>
+      <ul class="nav__list">
+          <li class="nav__btn">
+              <a class="nav__link" href="Home.html">
+                  <i class="fa-solid fa-futbol"></i></a>
+          </li>
+          <li class="nav__btn">
+              <a class="nav__link" href="#">
+                  <i class="fa-solid fa-paper-plane"></i></a>
+          </li>
+          <li class="nav__btn">
+              <a class="nav__link" href="Posts.html"><i class="fas fa-search"></i></a>
+          </li>
+          <li class="nav__btn">
+              <a class="nav__link" href="community.html"><i class="fa-brands fa-github"></i></a>
+          </li>
+          <li class="nav__btn">
+              <div class="nav__img__div" onclick="location.href='Profile.html'">
+              <img class="nav__img" src="img/hyunwuProfile.jpg">
+              </div>
+          </li>
         </ul>
-    </nav>
-
+      </ul>
+      
+  </nav>
 
     <script src="clock.js"></script>
-    <script src="https://kit.fontawesome.com/277fae2850.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/277fae2850.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

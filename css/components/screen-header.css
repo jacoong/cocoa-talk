@@ -1,16 +1,53 @@
 .screen-header{
     padding-top: 50px;
-    padding-bottom: 20px;
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    margin: 0px 15px;
+    background-color: var(--concept-backgroundColor);
+    margin-bottom: 10px;
+    z-index: 9998;
+    height: 50px;
+    color:var(--concept-color);
+;}
+
+.screen-header{
+    padding-left: var(--horizontal-space);
+    padding-top: 12vw;
 }
 
+
+
 .screen-header__Friends-searchbar{
+    font-family: 'Pacifico', cursive;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 200;
 }
 
 .screen-header__icons i{
-    padding-left: 20px;
+    padding-left:20px;
+
 }
+
+
+.screen-header__icons i:last-child{
+    margin-right:40px;
+}
+
+
+.screen-header__log-page,.screen-header__join-page{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    margin: 0px var(--horizontal-space);
+    position: relative;
+
+}
+
+.screen-header__Friends-searchbar__log-page,.screen-header__Friends-searchbar__join-page{
+text-align: center;
+position: relative;
+bottom: 22px;
+pointer-events: none;
+}
+
+

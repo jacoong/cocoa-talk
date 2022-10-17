@@ -1,0 +1,25 @@
+.posts__body{
+    overflow: scroll;
+    width: 95%;
+    margin: 0px auto;
+    height: 100vh;
+    margin-top: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 15vw;
+}
+
+
+.posts__body__container{
+    background: tomato;
+    width: 30vw;
+    height: 40vw;
+    border:2px solid var(--concept-backgroundColor);
+}
+
+.posts__body__container img{
+    width: 100%;
+    height: 100%;
+
+}

@@ -1,4 +1,7 @@
 :root{
-    --yellow: #FAE103;
-    --horizontal-space: 25px;
+    --concept-color: #8A1538;
+    --horizontal-space: 15px;
+    --gray:rgba(0, 0, 0, 0.5);
+    --concept-backgroundColor:#EEEEE4;
+    --third-color:#03CFB7;
 }
