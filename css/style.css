@@ -19,6 +19,7 @@
 @import "screens/Profile.css";
 @import "screens/community.css";
 @import "screens/posts.css";
+@import "screens/no_mobile.css";
 
 @keyframes secondroad {
 

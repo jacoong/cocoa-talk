@@ -124,3 +124,23 @@ body{
     scale:110%;
 }
 
+.no_mobile{
+    position:absolute;
+    z-index: 99;
+    height: 100vh;
+    background-color: var(--concept-backgroundColor);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    top: 0;
+    color:var(--concept-color);
+    font-family:'Pacifico', cursive;
+}
+
+@media screen and (max-width:645px){
+    .no_mobile {
+        display: none;
+    }
+}
